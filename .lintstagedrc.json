@@ -1,0 +1,14 @@
+{
+  "*.{json,html}": [
+    "prettier --write",
+    "cspell  --no-must-find-files",
+    "git add"
+  ],
+  "*.{md,yaml,yml}": ["cspell  --no-must-find-files", "git add"],
+  "*.ts(x)?": [
+    "eslint --fix",
+    "prettier --write",
+    "cspell  --no-must-find-files",
+    "git add"
+  ]
+}

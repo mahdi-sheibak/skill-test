@@ -1,0 +1,8 @@
+commitlint
+nextjs
+esbenp
+naumovs
+dbaeumer
+eamodio
+bradlc
+tailwindcss

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,fa",
+  "dictionaryDefinitions": [
+    {
+      "name": "skill-test-en",
+      "path": "./configs/cspell/skill-test.en.txt",
+      "addWords": true
+    },
+    {
+      "name": "skill-test-fa",
+      "path": "./configs/cspell/skill-test.fa.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["skill-test-en", "skill-test-fa"],
+  "ignorePaths": ["node_modules", ".turbo", ".next", "pnpm-lock.yaml"],
+  "import": ["@cspell/dict-fa-ir/cspell-ext.json"]
+}

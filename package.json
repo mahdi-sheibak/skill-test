@@ -1,0 +1,27 @@
+{
+  "name": "skill-test",
+  "packageManager": "pnpm@7.15.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "pnpm run format && pnpm run lint && pnpm run build",
+    "lint:staged": "lint-staged",
+    "commitlint": "commitlint --edit $1",
+    "prepare": "husky install configs/husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.5.1",
+    "@commitlint/config-conventional": "17.4.4",
+    "@cspell/dict-fa-ir": "2.0.0",
+    "cspell": "6.31.1",
+    "eslint": "8.38.0",
+    "eslint-config-custom": "workspace:*",
+    "husky": "^8.0.3",
+    "lint-staged": "13.2.1",
+    "prettier": "2.8.7",
+    "turbo": "1.9.1"
+  }
+}

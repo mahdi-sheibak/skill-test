@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker-persian",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "naumovs.color-highlight",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "prisma.prisma",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

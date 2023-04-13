@@ -5,12 +5,12 @@
   "dictionaryDefinitions": [
     {
       "name": "skill-test-en",
-      "path": "./configs/cspell/skill-test.en.txt",
+      "path": "./packages/cspell/skill-test.en.txt",
       "addWords": true
     },
     {
       "name": "skill-test-fa",
-      "path": "./configs/cspell/skill-test.fa.txt",
+      "path": "./packages/cspell/skill-test.fa.txt",
       "addWords": true
     }
   ],

@@ -8,9 +8,8 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "pnpm run format && pnpm run lint && pnpm run build",
-    "lint:staged": "lint-staged",
     "commitlint": "commitlint --edit $1",
-    "prepare": "husky install configs/husky"
+    "prepare": "husky install packages/husky"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",

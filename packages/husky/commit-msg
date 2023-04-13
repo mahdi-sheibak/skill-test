@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "============= commiting... ============="
+echo "\033[33m ============= commiting... ============= \033[0m"
 pnpm exec commitlint --edit $1

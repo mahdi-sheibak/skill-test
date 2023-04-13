@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "============= pull from origin... ============="
-git pull origin $(git rev-parse --abbrev-ref HEAD)
+echo "\033[33m ============= pull from origin... ============= \033[0m"
+git pull origin $(git branch --show-current)

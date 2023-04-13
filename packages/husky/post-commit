@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "============= push to origin... ============="
-git push origin $(git rev-parse --abbrev-ref HEAD)
+echo "\033[33m ============= push to origin... ============= \033[0m"
+git push origin $(git branch --show-current)

@@ -20,7 +20,7 @@
     "dotenv-cli": "7.2.1",
     "eslint": "8.38.0",
     "eslint-config-custom": "workspace:*",
-    "husky": "^8.0.3",
+    "husky": "8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
     "turbo": "1.9.1"

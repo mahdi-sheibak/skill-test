@@ -3,7 +3,7 @@ import TestSentry from "@/components/TestSentry"
 function HomePage() {
   return (
     <div>
-      <h2>Home Page - staging</h2>
+      <h2>Home Page - staging branch</h2>
       <TestSentry />
     </div>
   )

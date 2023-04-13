@@ -10,5 +10,6 @@
       "cache": false,
       "persistent": true
     }
-  }
+  },
+  "globalEnv": ["WEB_SENTRY_DSN", "SENTRY_AUTH_TOKEN"]
 }

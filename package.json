@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "dotenv -- turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "pnpm run format && pnpm run lint && pnpm run build",
@@ -17,11 +17,16 @@
     "@commitlint/config-conventional": "17.4.4",
     "@cspell/dict-fa-ir": "2.0.0",
     "cspell": "6.31.1",
+    "dotenv-cli": "7.2.1",
     "eslint": "8.38.0",
     "eslint-config-custom": "workspace:*",
     "husky": "^8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
     "turbo": "1.9.1"
+  },
+  "engines": {
+    "node": "16.19.0",
+    "pnpm": "8.2.0"
   }
 }

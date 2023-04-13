@@ -1,0 +1,16 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.scss",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.scss",
+    "*.jsx": "${capture}.js, ${capture}.scss",
+    "*.tsx": "${capture}.ts, ${capture}.scss",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    ".env": ".env.dev.sample, .env.prod.sample, .env.example",
+    ".prettierrc": ".prettierignore",
+    ".eslintrc": ".eslintignore",
+    "Dockerfile": ".dockerignore",
+    "sentry.properties": "sentry.client.config.js, sentry.server.config.js, sentry.edge.config.js"
+  },
+}

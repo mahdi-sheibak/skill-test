@@ -11,8 +11,8 @@
     "prepare": "husky install packages/husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
-    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
     "@cspell/dict-fa-ir": "2.0.0",
     "cspell": "6.31.1",
     "dotenv-cli": "7.2.1",
